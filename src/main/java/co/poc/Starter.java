@@ -1,13 +1,11 @@
-package co.efranco.command.event;
+package co.poc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SaveEventApplication {
-
+public class Starter {
 	public static void main(String[] args) {
-		SpringApplication.run(SaveEventApplication.class, args);
+		SpringApplication.run(Starter.class, args);
 	}
-
 }
